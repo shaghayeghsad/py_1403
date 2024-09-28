@@ -1,0 +1,5 @@
+# تمرین چارت درسی مهندسی نرم افزار
+Chart = { 999001: ('Math_1' , 3 ,[] ) , 999002: ('Physics_1' , 3 ,[]) , 999003: ('Basics_of_computer_and_programmin' , 3 ,[])
+        , 100002: ('General_English' , 3 ,[]) , 100001: ('General_Persion' , 3 ,[]) , 100005: ('Sport_1' , 1 ,[]) 
+        , 999005: ('Math_2' , 3 ,[999001]) , 999006: ('Physics_2' , 3 ,[999001]) , 999007: ('Anvanced_Programming' , 3 ,[999003])}
+print(dict(Chart))
